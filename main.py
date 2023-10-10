@@ -17,7 +17,7 @@ class CurrencyConverter:
         This method should fetch new currency data using the openexchangerate API
         It has some boilerplate code you can use.
         """
-        app_id = os.environ["app_id"]
+        app_id = os.environ["APP_ID"]
         url = f"https://openexchangerates.org/api/latest.json?app_id={app_id}"
         headers = {
             "accept": "application/json"}
